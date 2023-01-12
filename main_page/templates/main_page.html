@@ -2,24 +2,8 @@
 {% load static %}
 
 {% block site_content %}
-<section id="section0" class="header">
-    <div class="container">
-        <div class="headerInner">
-            <h2>Приветственный текст<br>главная суть</h2>
-            <p>Здесь нужно дать краткое описание <b class="red">сайта</b></p>
-            <div class="row mt-30">
-                <div class="col-md-4 col-sm-6">
-                	<form>
-                    	<input type="text" placeholder="Ваше Имя:">
-						<input type="email" placeholder="Ваш Email:">
-                    	<input type="tel" placeholder="Ваш номер телефона:">
-						<button class="btn btn-default btn-head mt-20 mb-50">Отправить заявку</button>
-                	</form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+    {% include 'reserve.html' %}
 
 <section class="excellence mb-50">
     <div class="container">

@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import RegexValidator
 import uuid
 import os
 
@@ -70,4 +71,22 @@ class Comments(models.Model):
         ordering = ('position', )
 
 
+class UserReservation(models.Model):
+
+    phone_validator = RegexValidator(regex=r'^\+?3?8?0\d{2}[- ]?(\d[- ]?){7}$', message='не вірний номер')
+    email_validator = RegexValidator(regex=r'^[0-9A-Za-z](-?[0-9A-Za-z_])+@[0-9A-Za-z](-?[0-9A-Za-z._])+$',
+                                     message='не вірний email')
+    name = models.CharField(max_length=50)
+    phone = models.CharField(max_length=20, validators=[phone_validator])
+    email_us = models.CharField(max_length=30, validators=[email_validator])
+    date = models.DateField(auto_now_add=True)
+    manager_data_processed = models.DateField(auto_now=True)
+    is_processed = models.BooleanField(default=False)
+
+
+    class Meta:
+        ordering = ('-date', )
+
+    def __str__(self):
+        return f'{self.name} {self.phone} {self.email_us}'
 
