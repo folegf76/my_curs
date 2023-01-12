@@ -37,3 +37,37 @@ class Cars(models.Model):
 
     class Meta:
         ordering = ('position', )
+
+class AboutUs(models.Model):
+
+    name = models.CharField(max_length=50, unique=True)
+    position = models.PositiveSmallIntegerField(unique=True)
+    is_visible = models.BooleanField(default=True)
+    desc = models.TextField(max_length=200)
+
+    def __str__(self):
+        return f'{self.name}: {self.position}'
+
+    class Meta:
+        ordering = ('position', )
+
+class Comments(models.Model):
+    def get_file_name(self, filename: str):
+        ext = filename.strip().split('.')[-1]
+        filename = f'{uuid.uuid4()}.{ext}'
+        return os.path.join('images/cars', filename)
+
+    name = models.CharField(max_length=50, unique=True)
+    position = models.PositiveSmallIntegerField(unique=True)
+    is_visible = models.BooleanField(default=True)
+    desc = models.TextField(max_length=200)
+    photo = models.ImageField(upload_to=get_file_name, blank=True)
+
+    def __str__(self):
+        return f'{self.name}: {self.position}'
+
+    class Meta:
+        ordering = ('position', )
+
+
+

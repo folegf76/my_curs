@@ -1,0 +1,12 @@
+<<section id="section4" class="testimonials text-bold text-center color-white parallax parallax_two" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="parallax_inner owl-carousel" data-slides="1" data-slides-md="1" data-slides-sm="1" data-margin="0" data-loop="true" data-dots="true" data-nav="false">
+        {% for comment in comments %}
+            <div class="container">
+                <figure><img alt="" src={{ comment.photo.url }}></figure>
+                <h5>{{ comment.name }}</h5>
+                <p>{{ comment.desc }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</section>
