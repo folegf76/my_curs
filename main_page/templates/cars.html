@@ -4,8 +4,8 @@
     <div class="parallax_inner">
         <div class="container">
             <div class="text-center mb-50 head">
-                <h2 class="mb-25" style="color:#fff">Наши <span style="color:#ffc000">автомобили</span></h2>
-                <p>Косвенная реклама порождена временем</p>
+                <h2 class="mb-25" style="color:#fff">Наші <span style="color:#ffc000">автомобілі</span></h2>
+                <p>Вибір за Вами</p>
             </div>
             <div class="row courses">
                 {% for car in cars %}
@@ -13,7 +13,7 @@
                         <div class="course_inner">
                         <figure class="pull-left mt-10"><img alt="" style="height:170px;" src={{ car.photo.url }}></figure>
                         <div class="info">
-                            <h5 style="color:#fff">{{ car.name }}</h5>
+                            <h5 style="color:#fff">{{ car.category }}</h5>
                             <p>{{ car.desc }}</p>
                         </div>
                         </div>
