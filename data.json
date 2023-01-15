@@ -1,0 +1,1191 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-01-10T17:36:50.509Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "CarsCategory object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-01-10T17:37:15.205Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "CarsCategory object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-01-10T17:38:23.013Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Cars object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-01-10T17:38:53.934Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Cars object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-01-11T10:47:44.352Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "самокат: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-01-11T10:48:00.209Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "трактор: 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-01-11T16:58:47.199Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Преимущество №1: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-01-11T16:58:57.118Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Преимущество №2: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-01-11T16:59:11.908Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Преимущество №3: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-01-11T17:01:46.687Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Олег: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-01-11T17:02:11.929Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Саша: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-01-11T17:02:25.821Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Маша: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-01-11T17:09:57.384Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Преимущество №2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-01-12T11:52:25.997Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "TEST 0123654789 asdf@ghj.kl",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-01-12T11:55:08.374Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Олег 099-999-99-99 456@fgh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-01-13T15:19:49.153Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Економ: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-01-13T15:21:01.661Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Середній: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-01-13T15:21:38.860Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Бізнес: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-01-13T15:22:37.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Позашляховик: 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-01-13T15:26:41.734Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Причина №1: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-01-13T15:27:22.143Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Причина №2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-01-13T15:27:50.606Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Причина №3: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-01-13T15:27:54.265Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Причина №2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-01-13T15:36:26.955Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "авто 1: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-01-13T15:37:59.836Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "авто 2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Category\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-01-13T15:39:25.558Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "авто 3: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-01-13T15:40:08.432Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "авто 4: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-01-13T15:40:49.559Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "авто 5: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-01-13T15:47:37.762Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Олег: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-01-13T15:48:16.841Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Саша: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-01-13T15:51:44.087Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Маша: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-01-13T15:55:45.098Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Олег 0994443322 oleh@ukr.net",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-01-14T12:35:28.649Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "авто 4: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-01-14T12:35:48.317Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Причина №3: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-01-14T12:36:27.748Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Олег: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-01-14T12:36:43.768Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Олег: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add cars category",
+        "content_type": 7,
+        "codename": "add_carscategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change cars category",
+        "content_type": 7,
+        "codename": "change_carscategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete cars category",
+        "content_type": 7,
+        "codename": "delete_carscategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view cars category",
+        "content_type": 7,
+        "codename": "view_carscategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add cars",
+        "content_type": 8,
+        "codename": "add_cars"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change cars",
+        "content_type": 8,
+        "codename": "change_cars"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete cars",
+        "content_type": 8,
+        "codename": "delete_cars"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view cars",
+        "content_type": 8,
+        "codename": "view_cars"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add about us",
+        "content_type": 9,
+        "codename": "add_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change about us",
+        "content_type": 9,
+        "codename": "change_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete about us",
+        "content_type": 9,
+        "codename": "delete_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view about us",
+        "content_type": 9,
+        "codename": "view_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add comments",
+        "content_type": 10,
+        "codename": "add_comments"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change comments",
+        "content_type": 10,
+        "codename": "change_comments"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete comments",
+        "content_type": 10,
+        "codename": "delete_comments"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view comments",
+        "content_type": 10,
+        "codename": "view_comments"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add user reservation",
+        "content_type": 11,
+        "codename": "add_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change user reservation",
+        "content_type": 11,
+        "codename": "change_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete user reservation",
+        "content_type": 11,
+        "codename": "delete_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view user reservation",
+        "content_type": 11,
+        "codename": "view_userreservation"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$IE4GlR2aC6fQ3m33BWcMfq$ewliJWKOl0R+EfBD+Fx9JAdXW/vs93xqVDteM7kJlAU=",
+        "last_login": "2023-01-12T11:49:39.029Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-01-10T17:31:12.386Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main_page",
+        "model": "carscategory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main_page",
+        "model": "cars"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main_page",
+        "model": "aboutus"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main_page",
+        "model": "comments"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main_page",
+        "model": "userreservation"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "k0u1et30hiketgraapr0a8v862wobhmk",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAiBQaX7j0DGZhBqgaS0q6Md7dNutDte-__twi4LiWsnecwkbgIJU6_LGJ6ct0FPbDem0ytLvMU5Z7Iw3Z5a8Sv69H-HRTsZVtnD9Ymnwyxd4OBkWEj6cwaSbkIFtg6yKMzGTMbAqvNECMBKh81efH5AuJOOBI:1pFw5T:uu4-Zmo_wuPDzyuggebaErzaB0eXSZgRD69Bm5FaQUI",
+        "expire_date": "2023-01-26T11:49:39.036Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qv8ns89af1nkovxmn8lof84zeodwb24k",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAiBQaX7j0DGZhBqgaS0q6Md7dNutDte-__twi4LiWsnecwkbgIJU6_LGJ6ct0FPbDem0ytLvMU5Z7Iw3Z5a8Sv69H-HRTsZVtnD9Ymnwyxd4OBkWEj6cwaSbkIFtg6yKMzGTMbAqvNECMBKh81efH5AuJOOBI:1pFIXe:FBKN3f82HoCSjFAKqEfgXA0qt9bZtrp5MeYOwA18Kig",
+        "expire_date": "2023-01-24T17:36:06.799Z"
+    }
+},
+{
+    "model": "main_page.carscategory",
+    "pk": 1,
+    "fields": {
+        "name": "Економ",
+        "position": 1,
+        "is_visible": true,
+        "price": "500.00",
+        "desc": "Кращий варіант для економії Ваших коштів"
+    }
+},
+{
+    "model": "main_page.carscategory",
+    "pk": 2,
+    "fields": {
+        "name": "Середній",
+        "position": 2,
+        "is_visible": true,
+        "price": "750.00",
+        "desc": "Ідеальне поєднання ціни і якості"
+    }
+},
+{
+    "model": "main_page.carscategory",
+    "pk": 3,
+    "fields": {
+        "name": "Бізнес",
+        "position": 3,
+        "is_visible": true,
+        "price": "1000.00",
+        "desc": "Чудово підходить для ділових людей."
+    }
+},
+{
+    "model": "main_page.carscategory",
+    "pk": 4,
+    "fields": {
+        "name": "Позашляховик",
+        "position": 4,
+        "is_visible": true,
+        "price": "900.00",
+        "desc": "Збираєтесь за місто? Це для Вас."
+    }
+},
+{
+    "model": "main_page.cars",
+    "pk": 1,
+    "fields": {
+        "name": "авто 1",
+        "position": 1,
+        "is_visible": true,
+        "category": 1,
+        "desc": "Помірна витрата палива. \r\nКомфортабельний салон дозволяє розмістити до 5 пасажирів.",
+        "photo": "images/cars/cc01c43b-0b47-4761-aa44-1c55bbbd6c07.png"
+    }
+},
+{
+    "model": "main_page.cars",
+    "pk": 2,
+    "fields": {
+        "name": "авто 2",
+        "position": 2,
+        "is_visible": true,
+        "category": 1,
+        "desc": "Спортивний екстер'єр, сучасне технічне забезпечення, економічність",
+        "photo": "images/cars/639f9002-67d3-464f-91ed-8b0bad83be6e.png"
+    }
+},
+{
+    "model": "main_page.cars",
+    "pk": 3,
+    "fields": {
+        "name": "авто 3",
+        "position": 1,
+        "is_visible": true,
+        "category": 2,
+        "desc": "Тип кузова - Седан. Тип трансмісії - Автомат.",
+        "photo": "images/cars/9de0d5fd-75b3-447c-9fd8-ff2cf915a894.png"
+    }
+},
+{
+    "model": "main_page.cars",
+    "pk": 4,
+    "fields": {
+        "name": "авто 4",
+        "position": 1,
+        "is_visible": false,
+        "category": 3,
+        "desc": "Грація і преміум комфорт в одному автомобілі",
+        "photo": "images/cars/1fe27e76-d04a-4459-8747-94e9a4f8cef6.jpg"
+    }
+},
+{
+    "model": "main_page.cars",
+    "pk": 5,
+    "fields": {
+        "name": "авто 5",
+        "position": 1,
+        "is_visible": true,
+        "category": 4,
+        "desc": "Це стильний і сучасний кросовер, що допоможе вирішити будь-яке питання.",
+        "photo": "images/cars/bc5e752e-9d18-409c-a2c5-08e5fa445626.png"
+    }
+},
+{
+    "model": "main_page.aboutus",
+    "pk": 1,
+    "fields": {
+        "name": "Причина №1",
+        "position": 1,
+        "is_visible": true,
+        "desc": "Широкий ціновий діапазон і постійні акції та знижки. У компанії кожен зможе знайти автомобіль, який підходить йому по вартості та за умовами оренди. Всі ціни вказані на сайті."
+    }
+},
+{
+    "model": "main_page.aboutus",
+    "pk": 2,
+    "fields": {
+        "name": "Причина №2",
+        "position": 2,
+        "is_visible": true,
+        "desc": "Графік роботи 24/7 без свят і вихідних. Наші менеджери готові допомогти вам з орендою авто в будь-який час дня та ночі."
+    }
+},
+{
+    "model": "main_page.aboutus",
+    "pk": 3,
+    "fields": {
+        "name": "Причина №3",
+        "position": 3,
+        "is_visible": false,
+        "desc": "Адресна доставка орендованого автомобіля. Вам не потрібно кудись їхати, щоб взяти авто на прокат без водія."
+    }
+},
+{
+    "model": "main_page.comments",
+    "pk": 1,
+    "fields": {
+        "name": "Олег",
+        "position": 1,
+        "is_visible": true,
+        "desc": "Скористався послугами оренди автомобіля. Сервіс на вищому рівні машина хоть і мала трохи пробігу але була гарно доглянута і повністю на ходу ніяких проблем.",
+        "photo": "images/cars/7a082ed6-58f9-4669-bb21-d2dcc7f0e45e.png"
+    }
+},
+{
+    "model": "main_page.comments",
+    "pk": 2,
+    "fields": {
+        "name": "Саша",
+        "position": 2,
+        "is_visible": true,
+        "desc": "Побував у Львові, скористався там послугою прокат авто, в компанії . Розцінки сервісу нормальні. Якість автівок на рівні.",
+        "photo": "images/cars/0dbdfe4f-3a5b-4f29-9448-267ef70e7b21.jpg"
+    }
+},
+{
+    "model": "main_page.comments",
+    "pk": 3,
+    "fields": {
+        "name": "Маша",
+        "position": 3,
+        "is_visible": true,
+        "desc": "Все мені дуже сильно сподобалось . Автомобіль зробив атмосферу комфортного проведення дня народження . Комфорт і відчуття відмінного автомобіля надавало мені впевненості . Дякую Вам!",
+        "photo": "images/cars/7260f36b-ce63-48b6-a1e4-b2fa0686165d.png"
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 1,
+    "fields": {
+        "name": "Олег",
+        "phone": "0994443322",
+        "email_us": "oleh@ukr.net",
+        "date": "2023-01-12",
+        "manager_data_processed": "2023-01-13",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 2,
+    "fields": {
+        "name": "Олег",
+        "phone": "099-999-99-99",
+        "email_us": "Peta@gmail.com",
+        "date": "2023-01-12",
+        "manager_data_processed": "2023-01-12",
+        "is_processed": false
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 5,
+    "fields": {
+        "name": "Олег",
+        "phone": "099-999-99-99",
+        "email_us": "oleh@ukr.net",
+        "date": "2023-01-13",
+        "manager_data_processed": "2023-01-13",
+        "is_processed": false
+    }
+}
+]
