@@ -1,6 +1,7 @@
 from django import forms
 from .models import UserReservation
 
+
 class UserReservationForm(forms.ModelForm):
 
     name = forms.CharField(max_length=50, widget=forms.TextInput(attrs={

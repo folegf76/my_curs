@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Cars, CarsCategory, AboutUs, Comments
 from .forms import UserReservationForm
 
+
 # Create your views here.
 def main_page(request):
     if request.method == 'POST':

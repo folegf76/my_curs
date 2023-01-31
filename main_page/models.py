@@ -3,6 +3,7 @@ from django.core.validators import RegexValidator
 import uuid
 import os
 
+
 # Create your models here.
 class CarsCategory(models.Model):
 
@@ -39,6 +40,7 @@ class Cars(models.Model):
     class Meta:
         ordering = ('position', )
 
+
 class AboutUs(models.Model):
 
     name = models.CharField(max_length=50, unique=True)
@@ -51,6 +53,7 @@ class AboutUs(models.Model):
 
     class Meta:
         ordering = ('position', )
+
 
 class Comments(models.Model):
     def get_file_name(self, filename: str):
@@ -82,7 +85,6 @@ class UserReservation(models.Model):
     date = models.DateField(auto_now_add=True)
     manager_data_processed = models.DateField(auto_now=True)
     is_processed = models.BooleanField(default=False)
-
 
     class Meta:
         ordering = ('-date', )
