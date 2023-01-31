@@ -7,7 +7,6 @@ db.sqlite3
 *.pot
 __pycache__/
 local_settings.py
-db.*
 djangoKurs/__pycache__/
 djangoKurs/__pycache__
 
