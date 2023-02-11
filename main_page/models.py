@@ -56,6 +56,7 @@ class AboutUs(models.Model):
 
 
 class Comments(models.Model):
+
     def get_file_name(self, filename: str):
         ext = filename.strip().split('.')[-1]
         filename = f'{uuid.uuid4()}.{ext}'

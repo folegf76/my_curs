@@ -4,7 +4,6 @@ db.sqlite3
 .idea
 .idea/
 *.log
-*.pot
 __pycache__/
 local_settings.py
 djangoKurs/__pycache__/

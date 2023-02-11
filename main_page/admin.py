@@ -36,4 +36,4 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ['is_visible', 'name']
     list_editable = ['is_visible']
 
-a
+
