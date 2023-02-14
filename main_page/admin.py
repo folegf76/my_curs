@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import CarsCategory, Cars, AboutUs, Comments, UserReservation
 
-
 @admin.register(CarsCategory)
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['name', 'position', 'is_visible', 'price', 'desc']
